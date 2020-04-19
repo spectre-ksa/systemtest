@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Discord.js bot on Heroku",
   "main": "bot.js",
-  "start": "bot.js"
+  "start": "bot.js",
   "dependencies": {
     "anti-spam": "^0.2.7",
     "common-tags": "^1.8.0",
