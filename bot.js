@@ -223,4 +223,4 @@ client.on('ready', function(){
   console.log('')
 });
 
-client.login('NzAwODQyNDExNjMwNTI2NjE0.XpwTuA.zrH-AV1iQ-pUmOEcpWD2kyTiKI0');
+client.login(process.env.BOT_TOKEN);
