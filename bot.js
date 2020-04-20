@@ -1,9 +1,18 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
+const moment = require('moment');
+const zalgo = require('zalgolize');
+const math = require('math-expression-evaluator');  
+const figlet = require('figlet'); 
 const fs = require('fs');
 const ms = require('ms');
 const prefix = '#'
 
+ client.on('message', msg => {
+    if (msg.content === 'test') {
+     msg.channel.send('I’m On');
+    }
+  });
 
 client.on('message', message => {
 
